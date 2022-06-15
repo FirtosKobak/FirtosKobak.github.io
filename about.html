@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+    <h1>About</h1>
+    <a href="/index.html">Home</a>
+
+    <h1>LINK</h1>
+
+    <p>teljes hosszúságban - domainnevet és azon belül az aloldalt is - ABSZOLÚT URL
+    </p>
+    <p> ha ugyanabban a mappában van - relatív elérési út - RELATÍV URL
+        ugyanabban a mappában fogja keresni, de ha olyan fájlt adok meg, ami nem létezik, akkor nem műküdik
+        ha átköltöztetem, akkor is működni fog
+    </p>
+    <p>3. ROUTE URL - ugyanúgy működik, mint a relatív, azzal a különbséggel, hogy mindig a domainnévtől nézi - perjel
+        be kell tenni perjelet - ami azt jelenti neki, hogy a domainnév után jön a cím</p>
+
+    4. ANCHOR URL - oldalon belül, kettőskereszt
+
+    <p>TÁBLÁZAT:
+        table - sorok tr - cellák td - ebben vannak az adatok
+        táblázat címe: Caption
+
+    </p>
+
+    <table>
+        <caption>Opening hours</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">closed00</td>
+
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    copyright 2019
+                </td>
+            </tr>
+        </tfoot>
+
+
+
+</body>
+
+</html>
